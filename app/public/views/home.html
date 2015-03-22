@@ -1,0 +1,16 @@
+<!doctype html>
+<html ng-app="RaceResultsApp">
+    <head>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular-touch.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular-animate.js"></script>
+        <script src="../js/controllers.js"></script>
+        <script src="../js/ui-grid.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="../css/ui-grid.css">
+        <link rel="stylesheet" type="text/css" href="../css/main.css">
+    </head>
+    <body ng-controller="RaceResultsController">
+        <div ui-grid="gridOptions" class="grid"></div>
+    </body>
+</html>
